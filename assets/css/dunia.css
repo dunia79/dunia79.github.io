@@ -12,6 +12,7 @@ body {
 .social {
 	background:white;
 	text-align: center;
+	margin-bottom: 20px;
 }
 .social img {
 	height:100px;
@@ -29,17 +30,20 @@ body {
 	color:#99CC33;
 	font-size:20px;
 }
+
+
 [class^="icon-btn"] /*.icon-btn*/ {
 	height: 50px;
 	width: 50px;
 	border: 0;
 	color: #fff;
 	cursor: pointer;
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 25px;
+	line-height: 50px;
 	transition: ease-in-out .3s;
 	border-radius: 50px;
 	margin-left: 10px;	
+	margin-right: 10px;	
 	background-color: #fff;
 }
 
@@ -64,6 +68,10 @@ body {
 	color: #fff;
 	background-color: #4FCE5D;
 }
+.mail {
+	color: #fff;
+	background-color: rgb(66, 66, 66);
+}
 .icon-btn:hover {
 	transform: scale(1.10);	
 	color: #FFFFFF;
@@ -71,10 +79,12 @@ body {
 a.link {
 	color: inherit;	
 }
+
 .contact ul {
 	direction: ltr;
 	padding:0;
 }
+
 .contact li{
 	margin:10px;
 	list-style-type: none;
